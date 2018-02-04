@@ -9,5 +9,13 @@
             "email": "emilianotisato@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files": [
+            "core/helpers.php"
+        ]
+    }
 }
