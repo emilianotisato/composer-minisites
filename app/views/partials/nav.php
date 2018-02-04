@@ -1,8 +1,5 @@
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/users">Manage Users</a></li>
-    </ul>
-</nav>
+<div class="links">
+    <a href="https://github.com/emilianotisato/composer-minisites">Documentation</a>
+    <a href="https://github.com/emilianotisato">Contact</a>
+    <a href="https://github.com/emilianotisato/composer-minisites">GitHub</a>
+</div>
