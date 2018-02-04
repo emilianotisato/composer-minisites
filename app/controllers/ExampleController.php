@@ -5,9 +5,9 @@ namespace App\Controllers;
 class ExampleController
 {
     /**
-     * Show the home page.
+     * Show the welcome page.
      */
-    public function home()
+    public function welcome()
     {
         return view('welcome');
     }
