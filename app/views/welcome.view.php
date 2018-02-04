@@ -1,4 +1,4 @@
-<?php require('partials/head.php'); ?>
+<?php require('partials/sample_head.php'); ?>
 
     <div class="flex-center position-ref full-height">
 
@@ -7,9 +7,9 @@
                     Composer Minisites
                 </div>
 
-                <?php require('partials/nav.php'); ?>
+                <?php require('partials/sample_nav.php'); ?>
             </div>
 
     </div>
 
-<?php require('partials/footer.php'); ?>
+<?php require('partials/sample_footer.php'); ?>

@@ -2,14 +2,20 @@
 
 namespace App\Controllers;
 
-use App\Core\App;
-
-class UsersController
+class ExampleController
 {
     /**
-     * Show all users.
+     * Show the home page.
      */
-    public function index()
+    public function home()
+    {
+        return view('welcome');
+    }
+
+    /**
+     * Example create page with database.
+     */
+    public function create()
     {
         $users = App::get('database')->selectAll('users');
 
@@ -17,7 +23,7 @@ class UsersController
     }
 
     /**
-     * Store a new user in the database.
+     * Example Store a new user in the database.
      */
     public function store()
     {

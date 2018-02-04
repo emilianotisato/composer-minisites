@@ -1,11 +1,14 @@
 # Insatll
-Clone it adn run `composer install`
+Clone it and run `composer install`
 
 # Config
-If you'll use a database, you need to uncomment the bind in `core/bootstrap.php`
+Rename `app/config.php.example` and check the options there
+```
+cp app/config.php.example app/config.php
+```
 
 # Security !!
-It's advisable that you set secure permissin to app and core folders
+It's advisable that you set secure permissions to app and core folders
 
 ## Fix permissions
 (Atention! if suExec is on, folders need 755 not 775)
@@ -44,3 +47,4 @@ deny from all
 ```
 
 ## Add SSL certif
+Come on! Use letsencrypt... is free!
