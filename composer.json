@@ -1,0 +1,13 @@
+{
+    "name": "emilianotisato/composer-minisites",
+    "description": "Simple HTML minisites and landing pages powered by composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emiliano Tisato",
+            "email": "emilianotisato@gmail.com"
+        }
+    ],
+    "require": {}
+}
