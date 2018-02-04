@@ -1,0 +1,15 @@
+# Deny browser folder exploring
+Options -Indexes
+# Block composer.json snifing just in case
+<Files composer.json>
+order deny,allow
+deny from all
+</Files>
+# Block main folders.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^app/ - [F,L]
+RewriteRule ^core/ - [F,L]
+RewriteRule ^vendor/ - [F,L]
+</IfModule>
